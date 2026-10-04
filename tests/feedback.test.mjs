@@ -1,8 +1,10 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {analyse,validateRequest,validateFeedback,passage} from '../feedback.mjs';
+import {analyse,validateRequest,validateFeedback,passage,sawmPassage} from '../feedback.mjs';
 const request={concept:'salah',answer:'It is prescribed prayer at appointed times.',consent:true};
 const good={status:'understood',understood:'You identified prescribed prayer.',clarification:'Appointed times are included.',nextStep:'Try the final question.',sourceIds:[passage.id]};
+test('Sawm retrieves its own passage and rejects cross-concept source IDs',async()=>{const result=await analyse({...request,concept:'sawm',answer:'Fasting as worship connected with mindfulness of Allah.'},{apiKey:'test-only',fetchImpl:async(url,options)=>{const body=JSON.parse(options.body);const last=JSON.parse(body.messages.at(-1).content);assert.equal(last.retrievedContext[0].id,sawmPassage.id);assert.deepEqual(body.response_format.json_schema.schema.properties.sourceIds.items.enum,[sawmPassage.id]);return {ok:true,json:async()=>({choices:[{message:{content:JSON.stringify({...good,sourceIds:[sawmPassage.id]})}}]})};}});assert.equal(result.source.url,sawmPassage.url);assert.throws(()=>validateFeedback(good,sawmPassage));});
+test('rejects empty and whitespace-only feedback fields',()=>{for(const field of ['understood','clarification','nextStep'])for(const value of ['', '   '])assert.throws(()=>validateFeedback({...good,[field]:value}));});
 test('requires consent, bounded text, and supported concept',()=>{for(const change of [{consent:false},{concept:'hajj'},{answer:''},{answer:'x'.repeat(1201)}])assert.throws(()=>validateRequest({...request,...change}));});
 test('rejects invented and missing source references',()=>{for(const sourceIds of [[],['fake'],[passage.id,'fake']])assert.throws(()=>validateFeedback({...good,sourceIds}));});
 test('rejects unrecognized diagnosis and overlong fields',()=>{assert.throws(()=>validateFeedback({...good,status:'mastered'}));assert.throws(()=>validateFeedback({...good,clarification:'x'.repeat(1001)}));});
