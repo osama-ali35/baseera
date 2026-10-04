@@ -1,12 +1,15 @@
 {
- "name":"baseera",
- "version":"0.3.1",
- "private":true,
- "type":"module",
- "engines":{"node":"24.x"},
- "scripts":{
-  "build":"node --check server.mjs && node --check dist/app.js && node --check dist/pwa.js && node --check dist/sw.js",
-  "start":"node server.mjs"
- },
- "description":"Baseera pre-challenge hosting setup; no live AI integration"
+  "name": "baseera",
+  "version": "0.4.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "build": "node --check server.mjs && node --check dist/app.js && node --check dist/pwa.js && node --check dist/sw.js && node --check feedback.mjs",
+    "start": "node server.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "description": "Baseera Salah AI feedback pilot \u2014 live validation pending"
 }
