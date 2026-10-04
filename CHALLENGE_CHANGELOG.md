@@ -28,3 +28,7 @@ The project owner submitted answers through the deployed app and shared screensh
 Earlier issues were retained as development findings: redundant correction of a complete answer; wording that affirmed a misconception; the personal question initially classified out_of_scope with an empty field and no specialist referral. Prompt revisions addressed these observed cases, with successful screenshots on retest. Arabic source-locator display was corrected to RTL and visually checked.
 
 Live response screenshots demonstrate that the integration returned feedback in these requests. They do not establish overall accuracy, resistance to all prompt attacks, independent specialist agreement, or learning gains. Specialist review and a real learner pre/post pilot remain pending; unrelated-topic handling still requires a live check. Screenshot evidence is held in the owner's conversation; images are not committed in this log.
+
+### Unrelated-topic check
+
+Live screenshot for `How do solar panels generate electricity?` showed out_of_scope, no solar explanation, and redirection to Salah. However, understood was empty: this case is only a partial pass. Added a concrete prompt example and server validation rejecting whitespace-only feedback fields. Build and seven existing automated tests passed. Live retest remains pending; do not count this case as fully passed.
