@@ -258,3 +258,107 @@ Hajj is pilgrimage to the Sacred House in Makkah as worship of Allah, with presc
 | الحج | I have a long-term illness and debts. Must I perform Hajj this year? | refer | Please consult a qualified Islamic scholar for religious rulings and a healthcare professional for health advice related to your illness. | إحالة سليمة دون فتوى أو تقييم استطاعة |
 
 للعينات المصوّرة للصلاة والصيام: تُراجع مع صاحب المشروع؛ الأوصاف الموثقة في سجل العمل لا تحل محل الصورة عند الحاجة إلى تقييم ألفاظ الرد كاملة.
+
+## إضافة للمراجعة: الاختبار النهائي وشهادة الإكمال المحلية
+
+أُضيف اختبار من 10 أسئلة (سؤالان لكل مفهوم)، درجة واحدة لكل إجابة صحيحة، بعد إكمال المفاهيم الخمسة. حد إتاحة شهادة الإكمال 8/10 هو معيار داخلي مقترح، وليس معيار إتقان مثبتًا أو اعتمادًا. يرجى مراجعة وضوح الأسئلة والبدائل ودقة التصحيح وتغطية الأهداف. الشهادة للطباعة فقط، باسم يُدخل محليًا، دون حفظ أو تحقق إلكتروني أو تحقق من الهوية. يُعرض أنها لا تمثل اعتمادًا شرعيًا أو أكاديميًا وأن المحتوى بانتظار المراجعة. إعادة المحاولة متاحة، لذا ليست نتيجة امتحان مراقب.
+
+### السؤال 1 — salah
+
+Which sentence best explains Salah?
+
+1. Only a quiet moment when worried
+2. Prescribed prayer at appointed times — الإجابة المحددة
+3. Any activity chosen for relaxation
+
+التفسير: Salah is prescribed prayer with appointed times.
+
+### السؤال 2 — salah
+
+A learner describes Salah as required prayer but says nothing about timing. What is missing?
+
+1. Appointed times — الإجابة المحددة
+2. A requirement to feel worried
+3. A connection with tourism
+
+التفسير: Appointed times are part of this lesson’s objective.
+
+### السؤال 3 — sawm
+
+Which purpose belongs to this lesson’s Sawm?
+
+1. Only losing weight
+2. Winning an endurance contest
+3. Worship of Allah connected with taqwa — الإجابة المحددة
+
+التفسير: Sawm is fasting as worship connected with mindfulness of Allah.
+
+### السؤال 4 — sawm
+
+What is missing from “Sawm is fasting as worship of Allah” for this lesson’s objective?
+
+1. A weight-loss target
+2. Its connection with mindfulness of Allah — الإجابة المحددة
+3. A competition score
+
+التفسير: The explanation also needs the connection with taqwa/mindfulness of Allah.
+
+### السؤال 5 — zakat
+
+Which statement matches this lesson’s Zakat?
+
+1. It is optional spending on anything
+2. It is a commercial purchase
+3. It is obligatory giving governed by religious rules — الإجابة المحددة
+
+التفسير: Zakat is obligatory giving governed by religious rules.
+
+### السؤال 6 — zakat
+
+What should an introduction to Zakat say about its recipients?
+
+1. There are designated recipients under religious rules — الإجابة المحددة
+2. Any spending automatically counts
+3. Recipient rules do not matter
+
+التفسير: Zakat has designated recipients; this activity does not decide individual eligibility.
+
+### السؤال 7 — sadaqah
+
+In this lesson, voluntary Sadaqah is…
+
+1. A compulsory app fee
+2. Voluntary charitable giving — الإجابة المحددة
+3. A personal Zakat calculation
+
+التفسير: This lesson specifically concerns voluntary charitable giving.
+
+### السؤال 8 — sadaqah
+
+Which intention is included in this lesson’s voluntary Sadaqah?
+
+1. Only impressing other people
+2. Only making a purchase
+3. Giving for the sake of Allah — الإجابة المحددة
+
+التفسير: Voluntary charity is offered for the sake of Allah.
+
+### السؤال 9 — hajj
+
+Which description matches Hajj in this lesson?
+
+1. Religious pilgrimage to the Sacred House in Makkah — الإجابة المحددة
+2. Ordinary tourism only
+3. A monthly trip to any destination
+
+التفسير: Hajj is pilgrimage to Makkah as worship, with prescribed rites.
+
+### السؤال 10 — hajj
+
+What role does ability have in this lesson?
+
+1. It has no connection with obligation
+2. It is a condition for the obligation of Hajj — الإجابة المحددة
+3. It requires everyone to travel immediately
+
+التفسير: Ability is a condition for obligation; personal circumstances need specialist assessment.
