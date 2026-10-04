@@ -22,3 +22,6 @@
  body.certificate-open #completion-certificate{position:static;width:100%;max-width:none;margin:0;padding:12mm 10mm;border:2mm double #367d71;box-shadow:none;break-inside:avoid}
  body.certificate-open .certificate-controls{display:none!important}
 }
+
+#summary{color:#b42318;font-weight:800;font-size:19px;line-height:1.4;text-align:left;margin-top:10px;padding:10px 0;}
+#summary:hover{color:#8f1b13;}
