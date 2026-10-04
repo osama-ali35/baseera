@@ -87,3 +87,5 @@ Source: https://dorar.net/feqhia/2624 — “تمهيد: تعريف الصوم�
 The server selects context, structured-output source enum, and returned canonical source by concept; it rejects cross-concept source IDs. Sawm has a dedicated rubric and contrasting examples; Salah's tested rubric/examples are retained. Frontend sends the selected concept and shows its source link, label, and objective; cache version updated.
 
 Validation: syntax/build passed and nine automated tests passed, including Sawm routing/source isolation and empty-field rejection. Provider mocked in automated tests; Sawm semantic quality and live deployment behavior have not yet been observed. No Sawm learner outcomes recorded.
+
+First live Sawm screenshot: complete explanation `Sawm is fasting as worship of Allah that helps develop mindfulness of Allah.` returned understood, acknowledged worship and mindfulness, required no correction, and invited the final assessment. Source expander was outside this screenshot; source display is not visually confirmed by this image. This is a developer check, not a Sawm learner-impact trial.
