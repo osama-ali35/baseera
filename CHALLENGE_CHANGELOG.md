@@ -48,3 +48,18 @@ Owner-reported trial with one learner; no name or identifying information record
 - Difficulties: none reported.
 
 Descriptive assessment against the two-element objective: the before answer expresses obligation but does not explicitly identify prayer or appointed times; the after answer explicitly includes required prayer and appointed times. This indicates improvement in this learner's immediate written explanation. It does not establish retention, general effectiveness, independent expert agreement, or the separate contribution of AI versus the lesson. Sample size n=1; no control group; no specialist review recorded. No aggregate accuracy or learning-gain percentage is claimed.
+
+## Second learner pilot — P02, 4 October 2026
+
+Owner-reported trial with a second learner; no identifying information recorded. Background/eligibility was not independently verified.
+
+- Before prompt: What do you think Salah means, and when is it performed?
+- Before answer (verbatim): salah is before any important decision
+- After prompt: How would you explain Salah and its timing to a beginner?
+- After answer (verbatim, double space preserved): Salah is a  prayer done at specific appointed times
+- Completed the full path and read AI feedback and the source: yes, confirmed by the owner.
+- Difficulties: none reported.
+
+Descriptive assessment: the before answer associates Salah with an important decision and does not express the target definition; no inference about the learner's intended type of prayer is made. The after answer explicitly identifies prayer and appointed times but does not express obligation. The after explanation therefore partially meets the objective; expected rubric classification is partial, not a recorded live model classification for this answer.
+
+Pilot summary: two owner-reported learners completed the path, read feedback/source, and reported no difficulties. P01 expressed both target elements after the lesson; P02 expressed prayer and appointed times but omitted obligation. Both answers changed toward the objective. Sample n=2, immediate responses only, no control group, and no independent specialist review. These observations cannot isolate AI's effect from the lesson or establish general effectiveness. Earlier pending-study statements above describe the status at their recorded development stage.
