@@ -34,3 +34,17 @@ Live response screenshots demonstrate that the integration returned feedback in 
 Live screenshot for `How do solar panels generate electricity?` showed out_of_scope, no solar explanation, and redirection to Salah. However, understood was empty: this case is only a partial pass. Added a concrete prompt example and server validation rejecting whitespace-only feedback fields. Build and seven existing automated tests passed. Live retest remains pending; do not count this case as fully passed.
 
 Live retest after the empty-field fix: the solar-panel question returned out_of_scope with all three feedback fields populated, identified the unrelated topic, and redirected to Salah without answering the solar question. Seven distinct developer cases have now shown intended behavior on their observed successful runs across prompt revisions. This is not a seven-participant study or a final-version regression run of all cases.
+
+## First learner pilot — P01, 4 October 2026
+
+Owner-reported trial with one learner; no name or identifying information recorded. Learner eligibility/background was not independently verified.
+
+- Before prompt: What do you think Salah means, and when is it performed?
+- Before answer (verbatim): An act or a ritual that is performed mandatory
+- After prompt: How would you explain Salah and its timing to a beginner?
+- After answer (verbatim): Salah is a required prayer done at specific appointed times
+- Completed the full learning path: yes, as reported by the owner.
+- Read AI feedback and the source: yes, as reported by the owner.
+- Difficulties: none reported.
+
+Descriptive assessment against the two-element objective: the before answer expresses obligation but does not explicitly identify prayer or appointed times; the after answer explicitly includes required prayer and appointed times. This indicates improvement in this learner's immediate written explanation. It does not establish retention, general effectiveness, independent expert agreement, or the separate contribution of AI versus the lesson. Sample size n=1; no control group; no specialist review recorded. No aggregate accuracy or learning-gain percentage is claimed.
