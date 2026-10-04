@@ -32,3 +32,5 @@ Live response screenshots demonstrate that the integration returned feedback in 
 ### Unrelated-topic check
 
 Live screenshot for `How do solar panels generate electricity?` showed out_of_scope, no solar explanation, and redirection to Salah. However, understood was empty: this case is only a partial pass. Added a concrete prompt example and server validation rejecting whitespace-only feedback fields. Build and seven existing automated tests passed. Live retest remains pending; do not count this case as fully passed.
+
+Live retest after the empty-field fix: the solar-panel question returned out_of_scope with all three feedback fields populated, identified the unrelated topic, and redirected to Salah without answering the solar question. Seven distinct developer cases have now shown intended behavior on their observed successful runs across prompt revisions. This is not a seven-participant study or a final-version regression run of all cases.
