@@ -67,3 +67,5 @@ Pilot summary: two owner-reported learners completed the path, read feedback/sou
 ### Learner-derived developer case: missing obligation
 
 Testing `Salah is a prayer done at specific appointed times` returned understood and incorrectly stated that obligation was expressed. Expected partial under the declared objective. This is a live semantic failure, not a successful eighth case. Added an explicit instruction and example preventing inference of obligation from prayer/timing alone. Syntax/build and seven mocked/HTTP tests passed; live retest pending. P02's recorded after answer and partial descriptive assessment remain unchanged.
+
+Retest still returned understood for the missing-obligation answer. Render screenshot confirmed d85f4eb live, including the prior prompt fix. Added two contrasting conversation examples with explicit JSON feedback (prayer/times alone: partial; required prayer/times: understood). Updated request tests to inspect the final learner message. Build and seven tests passed; semantic live retest remains pending. The prompt-only correction did not resolve the observed case on its first retest.
