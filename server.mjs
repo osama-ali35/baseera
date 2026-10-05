@@ -9,7 +9,7 @@ let active=0, used=0, windowStart=Date.now();
 const hourlyLimit=Number(process.env.BASEERA_AI_HOURLY_LIMIT||30);
 if(!Number.isInteger(hourlyLimit)||hourlyLimit<1||hourlyLimit>500)throw Error('Invalid hourly limit');
 const root=path.join(path.dirname(fileURLToPath(import.meta.url)),'dist');
-const types={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.png':'image/png','.webmanifest':'application/manifest+json'};
+const types={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.png':'image/png','.mp3':'audio/mpeg','.webmanifest':'application/manifest+json'};
 const assets=new Map();
 async function collect(dir,prefix='') {
  for(const item of await readdir(dir,{withFileTypes:true})) {
