@@ -27,3 +27,10 @@ Owner supplied the generated Sadaqah MP3 after listening-check instructions. TTS
 
 Transcript:
 In this beginner lesson, Sadaqah means voluntary charitable giving for the sake of Allah. This form of charity is not obligatory. Our focus is voluntary giving and its religious intention. The word Sadaqah can have broader uses in religious texts, so context matters. This lesson does not decide personal obligations or judge anyone's sincerity. Remember these two ideas: voluntary charitable giving, and giving for the sake of Allah.
+
+## Hajj narration — 5 October 2026
+
+Owner supplied the generated Hajj MP3 after listening-check instructions. TTS-1/alloy, speed 0.9; duration 29.760 seconds. Included in the disclosed player and offline cache. All five concepts now have implemented narration assets; Hajj deployed playback remains pending after merge. Content awaits specialist review; narration is not religious accreditation.
+
+Transcript:
+Hajj is pilgrimage to the Sacred House in Makkah as worship of Allah, with prescribed rites. Ability is a condition for its obligation. This beginner lesson introduces pilgrimage and the role of ability. It does not explain all the rites or conditions, assess anyone's personal ability, or decide whether someone must travel. Remember these two ideas: Hajj is religious pilgrimage, and its obligation is conditional upon ability.
