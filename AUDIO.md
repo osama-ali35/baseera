@@ -20,3 +20,10 @@ Owner supplied the generated Zakat MP3 after listening-check instructions. TTS-1
 
 Transcript:
 Zakat is obligatory giving governed by religious rules. It is worship of Allah through giving a required portion of specified wealth to designated recipients or purposes. Zakat is not unrestricted personal spending. This beginner lesson does not calculate anyone's obligation or decide individual eligibility. Remember these two ideas: Zakat is obligatory, and it has designated recipients under religious rules.
+
+## Sadaqah narration — 5 October 2026
+
+Owner supplied the generated Sadaqah MP3 after listening-check instructions. TTS-1/alloy, speed 0.9; duration 30.096 seconds. Included in the disclosed player and offline cache. Deployed playback remains pending after merge. Hajj has no audio yet.
+
+Transcript:
+In this beginner lesson, Sadaqah means voluntary charitable giving for the sake of Allah. This form of charity is not obligatory. Our focus is voluntary giving and its religious intention. The word Sadaqah can have broader uses in religious texts, so context matters. This lesson does not decide personal obligations or judge anyone's sincerity. Remember these two ideas: voluntary charitable giving, and giving for the sake of Allah.
