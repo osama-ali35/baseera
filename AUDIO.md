@@ -6,3 +6,10 @@ The Explore stage offers native audio controls without autoplay and discloses th
 
 Transcript:
 Salah is the prescribed prayer in Islam. Muslims perform the five daily prayers at appointed times throughout the day and night. Salah is an act of worship, not simply a prayer before an important decision. Remember these two points: Salah is prescribed prayer, and it is performed at appointed times.
+
+## Sawm narration — 5 October 2026
+
+Owner supplied the generated Sawm MP3 after the listening check instructions. TTS-1/alloy, speed 0.9; duration 24.744 seconds. Added to the same disclosed audio player and offline cache. Deployed playback is pending verification after merge. Other three concepts have no audio yet.
+
+Transcript:
+Sawm means fasting. In Islam, fasting is a prescribed act of worship of Allah. Its purpose is connected with developing taqwa, or mindfulness of Allah. This lesson focuses on that religious purpose. Sawm should not be explained only as a diet or a physical challenge. Remember these two ideas: fasting as worship, and its connection with mindfulness of Allah.
