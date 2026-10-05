@@ -13,3 +13,10 @@ Owner supplied the generated Sawm MP3 after the listening check instructions. TT
 
 Transcript:
 Sawm means fasting. In Islam, fasting is a prescribed act of worship of Allah. Its purpose is connected with developing taqwa, or mindfulness of Allah. This lesson focuses on that religious purpose. Sawm should not be explained only as a diet or a physical challenge. Remember these two ideas: fasting as worship, and its connection with mindfulness of Allah.
+
+## Zakat narration — 5 October 2026
+
+Owner supplied the generated Zakat MP3 after listening-check instructions. TTS-1/alloy, speed 0.9; duration 28.824 seconds. Included in the disclosed player and offline cache. Deployed playback remains pending after merge. Sadaqah and Hajj have no audio yet.
+
+Transcript:
+Zakat is obligatory giving governed by religious rules. It is worship of Allah through giving a required portion of specified wealth to designated recipients or purposes. Zakat is not unrestricted personal spending. This beginner lesson does not calculate anyone's obligation or decide individual eligibility. Remember these two ideas: Zakat is obligatory, and it has designated recipients under religious rules.
