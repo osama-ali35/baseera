@@ -1,6 +1,6 @@
 'use strict';
-const CACHE='baseera-offline-v04-salah-audio';
-const FILES=['/','/index.html','/style.css','/app.js','/pwa.js','/manifest.webmanifest','/icons/icon-180.png','/icons/icon-192.png','/icons/icon-512.png','/assets/salah.png','/assets/sawm.png','/assets/hajj.png','/assets/audio/salah.mp3'];
+const CACHE='baseera-offline-v04-sawm-audio';
+const FILES=['/','/index.html','/style.css','/app.js','/pwa.js','/manifest.webmanifest','/icons/icon-180.png','/icons/icon-192.png','/icons/icon-512.png','/assets/salah.png','/assets/sawm.png','/assets/hajj.png','/assets/audio/salah.mp3','/assets/audio/sawm.mp3'];
 const TYPES={'.js':'javascript','.css':'text/css','.png':'image/png','.mp3':'audio/mpeg','.webmanifest':'json'};
 async function verified(path){const response=await fetch(new Request(path,{credentials:'include',cache:'reload'}));if(!response.ok||response.redirected||new URL(response.url).origin!==self.location.origin)throw Error('Offline download requires access to Baseera.');const type=response.headers.get('content-type')||'';if(path==='/'||path==='/index.html'){if(!type.includes('text/html')||!(await response.clone().text()).includes('name="baseera-app"'))throw Error('Not an app document.');}else{const ext=path.slice(path.lastIndexOf('.'));if(!type.includes(TYPES[ext]))throw Error('Unexpected asset type.');}return response;}
 self.addEventListener('install',event=>event.waitUntil((async()=>{const cache=await caches.open(CACHE);try{await Promise.all(FILES.map(async path=>cache.put(path,await verified(path))));}catch(e){await caches.delete(CACHE);throw e;}})()));
